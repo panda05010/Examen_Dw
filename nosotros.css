@@ -1,0 +1,173 @@
+@import '//codepen.io/chrisdothtml/pen/ojLzJK.css'; 
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Montserrat Alternates', sans-serif;
+	}
+	body{
+		background-size: 100vw 100vh;
+		background-repeat: no-repeat;
+		background: url(img/neon.jpg);
+	}
+	.capa{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		/*background: rgba(0,0,0,0.6); -- SE PONE MAS OSCURO*/
+		z-index: -1;
+		top: 0;left: 0;
+	}
+	/*Estilos para el encabezado*/
+	#header{
+		width: 100%;
+		height: 100px;
+		position: fixed;
+		top: 0;left: 0;
+	}
+	#container{
+		width: 90%;
+		max-width: 1200px;
+		margin: auto;
+
+	}
+	#container #btn-menu, .logo{
+		float: left;
+		line-height:100px;
+	}
+	#container #btn-menu label{
+		color: #fff;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.logo h1{
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin-left: 10px;
+		margin-top: 50px;
+	}
+	#container #menu{
+		float: right;
+		line-height: 100px;
+	}
+	#container #menu a{
+		display: inline-block;
+		padding: 15px;
+		line-height: normal;
+		text-decoration: none;
+		color: #fff;
+		transition: all 0.3s ease;
+		border-bottom: 2px solid transparent;
+		font-size: 15px;
+		margin-right: 5px;
+	}
+	#container #menu a:hover{
+		border-bottom: 2px solid #c7c7c7;
+		padding-bottom: 5px;
+	}
+	/*Fin de Estilos para el encabezado*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: 'Nunito', sans-serif;
+	padding: 0 20px;
+	
+}
+
+.card-container{
+	display: flex;
+	width: 700px;
+	height: auto;
+	background: #000000;
+	border-radius: 2px;
+	box-shadow: 1px 1px 4px 2px rgb(0, 0, 0, .2);
+
+}
+
+.header {
+	border: 1px solid #0400ff;
+	animation: rotate 5s infinite;
+  }
+  
+  
+#img1{
+	width: 300px;
+	margin-left: 11px;
+	
+}
+
+
+.descripcion{
+	background: #000000;
+}
+
+.header, .descripcion{
+	padding: 50px;
+	
+}
+
+.header a{
+	position: relative;
+	display: block;
+}
+
+.header img{
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+	margin: 10px 10px;
+	transition: .2s;
+}
+
+.header a:hover{
+	box-shadow: 0 0 0 12px rgba(0, 0, 0, .1);
+}
+
+.header h2{
+	color: goldenrod;
+	text-align: center;
+}
+
+.header h4{
+	margin: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.descripcion{
+	position: relative;
+	margin: center;
+	background-color: #000;
+	border: 1px solid #0400ff;
+	animation: rotate 5s infinite;
+}
+
+
+.descripcion p{
+	margin: 20px 10px;
+	height: 100px;
+	width: 200px;
+	color: #ffffff;
+}
+
+.descripcion .social{
+	margin-top: 25px;
+}
+
+.descripcion .social a{
+	display: inline-block;
+	padding: 0 2px;
+	color: #f0522a;
+}
+
+
+  
